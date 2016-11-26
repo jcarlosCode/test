@@ -4,4 +4,5 @@ public interface IRepositoryBase<TEntity> {
 	
 	boolean Add(TEntity t);
 	boolean Update(TEntity t);
+	boolean Remove(TEntity t);
  }
