@@ -1,9 +1,7 @@
 package com.carlos.repositories;
 
-public interface IRepositoryBase {
-  //hola soy un comentario
-  //hola soy un comentario
-  //hola soy un comentario
-  //hola soy un comentario
-  //hola soy un comentario
-}
+public interface IRepositoryBase<TEntity> {
+	
+	boolean Add(TEntity t);
+	boolean Update(TEntity t);
+ }
